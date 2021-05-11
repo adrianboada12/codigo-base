@@ -15,4 +15,8 @@ public class NumbersTest {
     public void getSum(){
         assertEquals(11,this.numbers.getSum() );
     }
+    @Test
+    public void getSubtraction() {
+        assertEquals(9,this.numbers.getSubtraction());
+    }
 }
