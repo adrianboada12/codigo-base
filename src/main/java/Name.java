@@ -22,4 +22,12 @@ public class Name {
         int x= name.length();
         return x;
     }
+    public String getReturnCharacte(){
+        String ReturnCharacte= "";
+        for (int a = name.length() - 1; a >= 0; a--)
+        {
+            ReturnCharacte+= name.charAt(a);
+        }
+        return ReturnCharacte;
+    }
 }
