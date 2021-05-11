@@ -19,4 +19,8 @@ public class NumbersTest {
     public void getSubtraction() {
         assertEquals(9,this.numbers.getSubtraction());
     }
+    @Test
+    public void getMultiplication() {
+        assertEquals(10,this.numbers.getMultiplication());
+    }
 }
