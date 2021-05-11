@@ -30,4 +30,8 @@ public class Name {
         }
         return ReturnCharacte;
     }
+    public String getLetters(){
+        String nametext = name.toUpperCase();
+        return nametext;
+    }
 }
