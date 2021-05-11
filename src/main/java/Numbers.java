@@ -29,5 +29,10 @@ public class Numbers
         Sum = one + two;
         return Sum;
     }
+    public int getSubtraction(){
+        int subtraction;
+        subtraction = one - two;
+        return subtraction;
+    }
 }
 
