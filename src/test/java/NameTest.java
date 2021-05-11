@@ -15,4 +15,9 @@ public class NameTest {
     public void getCharacte(){
         assertEquals(6,this.name.getCharacte());
     }
+    @Test
+    public void getReturnCharacte() {
+        assertEquals("nairda",this.name.getReturnCharacte());
+    }
+
 }
