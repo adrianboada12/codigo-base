@@ -34,5 +34,10 @@ public class Numbers
         subtraction = one - two;
         return subtraction;
     }
+    public int getMultiplication(){
+        int multiplication;
+        multiplication = one * two;
+        return multiplication;
+    }
 }
 
